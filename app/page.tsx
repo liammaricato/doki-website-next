@@ -4,100 +4,140 @@ export const runtime = "edge";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-nunito)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-nunito)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <div>
+      <div className="meninas flex w-full">
+        <div className="menina flex-auto bg-yellow-300"></div>
+        <div className="menina flex-auto bg-pink-300"></div>
+        <div className="menina flex-auto bg-blue-300"></div>
+        <div className="menina flex-auto bg-yellow-300"></div>
+        <div className="menina flex-auto bg-pink-300"></div>
+      </div>
+      <div className="flex w-full justify-between align-center bg-white px-20 py-32 gap-20">
+        <div className="flex-1 flex flex-col gap-10 items-start">
+          <h1 className="font-black text-4xl">Sobre</h1>
+          <p className="text-2xl">
+            We are a VTuber company based in San Francisco, CA. Our organization
+            launched on November 24th 2020. VShojo's mission is to help VTubers
+            turn their passion into a profession through dedicated management,
+            tech innovations, collaboration, and support.
+          </p>
+          <a className="py-3 px-6 text-xl font-black bg-pink-300 text-white w-auto rounded-full" href="">Veja mais</a>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+        <div className="flex-1 relative">
+          <img src="/polaroid.png" alt="Polaroid das meninas da Doki" id="polaroid1" className="absolute top-1/2 left-1/2" />
+          <img src="/polaroid.png" alt="Polaroid das meninas da Doki" id="polaroid2" className="absolute top-1/2 left-1/2" />
+        </div>
+      </div>
+      <div className="bg-blue-300 w-full p-20">
+        <h1 className="text-4xl text-white font-black">Talentos</h1>
+        <div className="flex w-full flex-wrap justify-around">
+          <div className="w-1/4 px-4 py-8 flex flex-col items-center gap-6">
+            <img src="/izu.png" alt="Retrato de Izumih Momo" className="rounded-full border-solid border-white border-8 shadow-lg" />
+            <div className="flex flex-col items-center gap-2">
+              <h2 className="text-3xl text-white font-extrabold">Izumih Momo</h2>
+              <h3 className="text-3xl text-white font-semibold">A Elfa Mágica</h3>
+            </div>
+            <div className="flex flex-wrap justify-around gap-2">
+              <a href="https://twitch.tv/izumihmomo">
+                <img src="icon_twitch.svg" alt="Link para Twitch" />
+              </a>
+              <a href="https://twitch.tv/izumihmomo">
+                <img src="icon_twitch.svg" alt="Link para Twitch" />
+              </a>
+              <a href="https://twitch.tv/izumihmomo">
+                <img src="icon_twitch.svg" alt="Link para Twitch" />
+              </a>
+              <a href="https://twitch.tv/izumihmomo">
+                <img src="icon_twitch.svg" alt="Link para Twitch" />
+              </a>
+            </div>
+          </div>
+          <div className="w-1/4 px-4 py-8 flex flex-col items-center gap-6">
+            <img src="/izu.png" alt="Retrato de Izumih Momo" className="rounded-full border-solid border-white border-8 shadow-lg" />
+            <div className="flex flex-col items-center gap-2">
+              <h2 className="text-3xl text-white font-extrabold">Izumih Momo</h2>
+              <h3 className="text-3xl text-white font-semibold">A Elfa Mágica</h3>
+            </div>
+            <div className="flex flex-wrap justify-around gap-2">
+              <a href="https://twitch.tv/izumihmomo">
+                <img src="icon_twitch.svg" alt="Link para Twitch" />
+              </a>
+              <a href="https://twitch.tv/izumihmomo">
+                <img src="icon_twitch.svg" alt="Link para Twitch" />
+              </a>
+              <a href="https://twitch.tv/izumihmomo">
+                <img src="icon_twitch.svg" alt="Link para Twitch" />
+              </a>
+              <a href="https://twitch.tv/izumihmomo">
+                <img src="icon_twitch.svg" alt="Link para Twitch" />
+              </a>
+            </div>
+          </div>
+          <div className="w-1/4 px-4 py-8 flex flex-col items-center gap-6">
+            <img src="/izu.png" alt="Retrato de Izumih Momo" className="rounded-full border-solid border-white border-8 shadow-lg" />
+            <div className="flex flex-col items-center gap-2">
+              <h2 className="text-3xl text-white font-extrabold">Izumih Momo</h2>
+              <h3 className="text-3xl text-white font-semibold">A Elfa Mágica</h3>
+            </div>
+            <div className="flex flex-wrap justify-around gap-2">
+              <a href="https://twitch.tv/izumihmomo">
+                <img src="icon_twitch.svg" alt="Link para Twitch" />
+              </a>
+              <a href="https://twitch.tv/izumihmomo">
+                <img src="icon_twitch.svg" alt="Link para Twitch" />
+              </a>
+              <a href="https://twitch.tv/izumihmomo">
+                <img src="icon_twitch.svg" alt="Link para Twitch" />
+              </a>
+              <a href="https://twitch.tv/izumihmomo">
+                <img src="icon_twitch.svg" alt="Link para Twitch" />
+              </a>
+            </div>
+          </div>
+          <div className="w-1/4 px-4 py-8 flex flex-col items-center gap-6">
+            <img src="/izu.png" alt="Retrato de Izumih Momo" className="rounded-full border-solid border-white border-8 shadow-lg" />
+            <div className="flex flex-col items-center gap-2">
+              <h2 className="text-3xl text-white font-extrabold">Izumih Momo</h2>
+              <h3 className="text-3xl text-white font-semibold">A Elfa Mágica</h3>
+            </div>
+            <div className="flex flex-wrap justify-around gap-2">
+              <a href="https://twitch.tv/izumihmomo">
+                <img src="icon_twitch.svg" alt="Link para Twitch" />
+              </a>
+              <a href="https://twitch.tv/izumihmomo">
+                <img src="icon_twitch.svg" alt="Link para Twitch" />
+              </a>
+              <a href="https://twitch.tv/izumihmomo">
+                <img src="icon_twitch.svg" alt="Link para Twitch" />
+              </a>
+              <a href="https://twitch.tv/izumihmomo">
+                <img src="icon_twitch.svg" alt="Link para Twitch" />
+              </a>
+            </div>
+          </div>
+          <div className="w-1/4 px-4 py-8 flex flex-col items-center gap-6">
+            <img src="/izu.png" alt="Retrato de Izumih Momo" className="rounded-full border-solid border-white border-8 shadow-lg" />
+            <div className="flex flex-col items-center gap-2">
+              <h2 className="text-3xl text-white font-extrabold">Izumih Momo</h2>
+              <h3 className="text-3xl text-white font-semibold">A Elfa Mágica</h3>
+            </div>
+            <div className="flex flex-wrap justify-around gap-2">
+              <a href="https://twitch.tv/izumihmomo">
+                <img src="icon_twitch.svg" alt="Link para Twitch" />
+              </a>
+              <a href="https://twitch.tv/izumihmomo">
+                <img src="icon_twitch.svg" alt="Link para Twitch" />
+              </a>
+              <a href="https://twitch.tv/izumihmomo">
+                <img src="icon_twitch.svg" alt="Link para Twitch" />
+              </a>
+              <a href="https://twitch.tv/izumihmomo">
+                <img src="icon_twitch.svg" alt="Link para Twitch" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
