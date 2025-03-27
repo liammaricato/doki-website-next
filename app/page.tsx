@@ -16,26 +16,50 @@ export default function Home() {
         <div className="flex-1 flex flex-col gap-10 items-start">
           <h1 className="font-black text-4xl">Sobre</h1>
           <p className="text-2xl">
-            We are a VTuber company based in San Francisco, CA. Our organization
-            launched on November 24th 2020. VShojos mission is to help VTubers
-            turn their passion into a profession through dedicated management,
-            tech innovations, collaboration, and support.
+            A Doki Live é um grupo de Vtubers dedicado a criar um ambiente
+            acolhedor e apaixonante, onde o entretenimento se transforma em
+            conexão genuína. Com cinco integrantes talentosas, levamos diversão,
+            criatividade e inovação ao público, promovendo uma comunidade
+            vibrante e inclusiva.
           </p>
-          <a className="py-3 px-6 text-xl font-black bg-pink-300 text-white w-auto rounded-full" href="">Veja mais</a>
+          <a
+            className="py-3 px-6 text-xl font-black bg-pink-300 text-white w-auto rounded-full"
+            href=""
+          >
+            Veja mais
+          </a>
         </div>
         <div className="flex-1 relative">
-          <img src="/polaroid.png" alt="Polaroid das meninas da Doki" id="polaroid1" className="absolute top-1/2 left-1/2" />
-          <img src="/polaroid.png" alt="Polaroid das meninas da Doki" id="polaroid2" className="absolute top-1/2 left-1/2" />
+          <img
+            src="/polaroid.png"
+            alt="Polaroid das meninas da Doki"
+            id="polaroid1"
+            className="absolute top-1/2 left-1/2"
+          />
+          <img
+            src="/polaroid.png"
+            alt="Polaroid das meninas da Doki"
+            id="polaroid2"
+            className="absolute top-1/2 left-1/2"
+          />
         </div>
       </div>
       <div className="bg-blue-300 w-full p-20">
         <h1 className="text-4xl text-white font-black">Talentos</h1>
         <div className="flex w-full flex-wrap justify-around">
           <div className="w-1/4 px-4 py-8 flex flex-col items-center gap-6">
-            <img src="/izu.png" alt="Retrato de Izumih Momo" className="rounded-full border-solid border-white border-8 shadow-lg" />
+            <img
+              src="/izu.png"
+              alt="Retrato de Izumih Momo"
+              className="rounded-full border-solid border-white border-8 shadow-lg"
+            />
             <div className="flex flex-col items-center gap-2">
-              <h2 className="text-3xl text-white font-extrabold">Izumih Momo</h2>
-              <h3 className="text-3xl text-white font-semibold">A Elfa Mágica</h3>
+              <h2 className="text-3xl text-white font-extrabold">
+                Izumih Momo
+              </h2>
+              <h3 className="text-3xl text-white font-semibold">
+                A Elfa Mágica
+              </h3>
             </div>
             <div className="flex flex-wrap justify-around gap-2">
               <a href="https://twitch.tv/izumihmomo">
@@ -53,10 +77,18 @@ export default function Home() {
             </div>
           </div>
           <div className="w-1/4 px-4 py-8 flex flex-col items-center gap-6">
-            <img src="/izu.png" alt="Retrato de Izumih Momo" className="rounded-full border-solid border-white border-8 shadow-lg" />
+            <img
+              src="/izu.png"
+              alt="Retrato de Izumih Momo"
+              className="rounded-full border-solid border-white border-8 shadow-lg"
+            />
             <div className="flex flex-col items-center gap-2">
-              <h2 className="text-3xl text-white font-extrabold">Izumih Momo</h2>
-              <h3 className="text-3xl text-white font-semibold">A Elfa Mágica</h3>
+              <h2 className="text-3xl text-white font-extrabold">
+                Izumih Momo
+              </h2>
+              <h3 className="text-3xl text-white font-semibold">
+                A Elfa Mágica
+              </h3>
             </div>
             <div className="flex flex-wrap justify-around gap-2">
               <a href="https://twitch.tv/izumihmomo">
@@ -74,10 +106,18 @@ export default function Home() {
             </div>
           </div>
           <div className="w-1/4 px-4 py-8 flex flex-col items-center gap-6">
-            <img src="/izu.png" alt="Retrato de Izumih Momo" className="rounded-full border-solid border-white border-8 shadow-lg" />
+            <img
+              src="/izu.png"
+              alt="Retrato de Izumih Momo"
+              className="rounded-full border-solid border-white border-8 shadow-lg"
+            />
             <div className="flex flex-col items-center gap-2">
-              <h2 className="text-3xl text-white font-extrabold">Izumih Momo</h2>
-              <h3 className="text-3xl text-white font-semibold">A Elfa Mágica</h3>
+              <h2 className="text-3xl text-white font-extrabold">
+                Izumih Momo
+              </h2>
+              <h3 className="text-3xl text-white font-semibold">
+                A Elfa Mágica
+              </h3>
             </div>
             <div className="flex flex-wrap justify-around gap-2">
               <a href="https://twitch.tv/izumihmomo">
@@ -95,10 +135,18 @@ export default function Home() {
             </div>
           </div>
           <div className="w-1/4 px-4 py-8 flex flex-col items-center gap-6">
-            <img src="/izu.png" alt="Retrato de Izumih Momo" className="rounded-full border-solid border-white border-8 shadow-lg" />
+            <img
+              src="/izu.png"
+              alt="Retrato de Izumih Momo"
+              className="rounded-full border-solid border-white border-8 shadow-lg"
+            />
             <div className="flex flex-col items-center gap-2">
-              <h2 className="text-3xl text-white font-extrabold">Izumih Momo</h2>
-              <h3 className="text-3xl text-white font-semibold">A Elfa Mágica</h3>
+              <h2 className="text-3xl text-white font-extrabold">
+                Izumih Momo
+              </h2>
+              <h3 className="text-3xl text-white font-semibold">
+                A Elfa Mágica
+              </h3>
             </div>
             <div className="flex flex-wrap justify-around gap-2">
               <a href="https://twitch.tv/izumihmomo">
@@ -116,10 +164,18 @@ export default function Home() {
             </div>
           </div>
           <div className="w-1/4 px-4 py-8 flex flex-col items-center gap-6">
-            <img src="/izu.png" alt="Retrato de Izumih Momo" className="rounded-full border-solid border-white border-8 shadow-lg" />
+            <img
+              src="/izu.png"
+              alt="Retrato de Izumih Momo"
+              className="rounded-full border-solid border-white border-8 shadow-lg"
+            />
             <div className="flex flex-col items-center gap-2">
-              <h2 className="text-3xl text-white font-extrabold">Izumih Momo</h2>
-              <h3 className="text-3xl text-white font-semibold">A Elfa Mágica</h3>
+              <h2 className="text-3xl text-white font-extrabold">
+                Izumih Momo
+              </h2>
+              <h3 className="text-3xl text-white font-semibold">
+                A Elfa Mágica
+              </h3>
             </div>
             <div className="flex flex-wrap justify-around gap-2">
               <a href="https://twitch.tv/izumihmomo">
