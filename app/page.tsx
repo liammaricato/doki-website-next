@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 
 export const runtime = "edge";
 
@@ -17,7 +17,7 @@ export default function Home() {
           <h1 className="font-black text-4xl">Sobre</h1>
           <p className="text-2xl">
             We are a VTuber company based in San Francisco, CA. Our organization
-            launched on November 24th 2020. VShojo's mission is to help VTubers
+            launched on November 24th 2020. VShojos mission is to help VTubers
             turn their passion into a profession through dedicated management,
             tech innovations, collaboration, and support.
           </p>
