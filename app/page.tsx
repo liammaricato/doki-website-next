@@ -1,4 +1,4 @@
-// import Image from "next/image";
+import Link from "next/link";
 import Talentos from "./components/Talentos";
 
 export const runtime = "edge";
@@ -23,12 +23,12 @@ export default function Home() {
             criatividade e inovação ao público, promovendo uma comunidade
             vibrante e inclusiva.
           </p>
-          <a
+          <Link
             className="py-3 px-6 text-xl font-black bg-pink-300 text-white w-auto rounded-full"
             href=""
           >
             Veja mais
-          </a>
+          </Link>
         </div>
         <div className="flex-1 relative">
           <img

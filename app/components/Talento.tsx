@@ -31,7 +31,7 @@ export default function Talento({ title, subtitle, image, links }: TalentoProps)
   }, [links]);
 
   return (
-    <div className="w-1/4 px-4 py-8 flex flex-col items-center gap-6">
+    <div className="w-1/3 px-4 py-8 flex flex-col items-center gap-6">
       <img
         src={image}
         alt={`Retrato de ${title}`}
