@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Talentos from "../components/Talentos";
-import Meninas from "../components/Meninas";
+import Meninas from "../components/MeninasCarousel";
 
 import { FaTwitch } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div>
       <Meninas />
-      <div className="flex flex-col md:flex-row w-full justify-between align-center bg-white px-8 sm:px-20 py-12 sm:py-32 gap-20">
+      <div className="flex flex-col md:flex-row w-full justify-between align-center bg-white overflow-hidden px-8 sm:px-20 py-12 sm:py-32 gap-20">
         <div className="flex-1 flex flex-col gap-10 items-start">
           <h1 id="quem-somos" className="font-black text-4xl">Quem somos</h1>
           <p className="text-xl">
@@ -24,7 +24,8 @@ export default function Home() {
             vibrante e inclusiva.
           </p>
           <div className="flex gap-4">
-            <Link href="" className="bg-pink rounded-full p-2 shadow-lg">
+            {/* TODO: ADICIONAR OS LINKS CORRETOS */}
+            <Link href="" className="bg-pink rounded-full p-2 shadow-lg"> 
               <FaTwitch color="white" className="w-8 h-8" />
             </Link>
             <Link href="" className="bg-pink rounded-full p-2 shadow-lg">
@@ -39,6 +40,7 @@ export default function Home() {
           </div>
         </div>
         <div className="flex-1 relative min-h-[30rem]">
+          {/* TODO: CORRIGIR TAMANHOS BASEADO NO FIGMA E SUBSTITUIR IMAGENS */}
           <img
             src="/polaroid.png"
             alt="Polaroid das meninas da Doki"

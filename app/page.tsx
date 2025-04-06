@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Talentos from "./components/Talentos";
-import Meninas from "./components/Meninas";
+import Meninas from "./components/MeninasCarousel";
 
 export const runtime = "edge";
 
@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div>
       <Meninas />
-      <div className="flex flex-col md:flex-row w-full justify-between align-center bg-white px-8 sm:px-20 py-12 sm:py-32 gap-20">
+      <div className="flex flex-col md:flex-row w-full justify-between align-center bg-white overflow-hidden px-8 sm:px-20 py-12 sm:py-32 gap-20">
         <div className="flex-1 flex flex-col gap-10 items-start">
           <h1 className="font-black text-4xl">Sobre</h1>
           <p className="text-xl">
@@ -26,6 +26,7 @@ export default function Home() {
           </Link>
         </div>
         <div className="flex-1 relative min-h-[30rem]">
+          {/* TODO: SUBSTITUIR IMAGENS */}
           <img
             src="/polaroid.png"
             alt="Polaroid das meninas da Doki"

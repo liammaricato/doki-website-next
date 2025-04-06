@@ -12,7 +12,7 @@ export default function Talentos({ color }: TalentosProps) {
       <Talento
         title="Mayuyu"
         subtitle="A cafeteira?"
-        image="/mayu.png"
+        image="/talentos/mayu.png"
         color={color}
         links={[
           { 
@@ -42,7 +42,7 @@ export default function Talentos({ color }: TalentosProps) {
       <Talento
         title="Izumih Momo"
         subtitle="A Elfa Mágica"
-        image="/izu.png"
+        image="/talentos/izu.png"
         color={color}
         links={[
           { 
@@ -72,7 +72,7 @@ export default function Talentos({ color }: TalentosProps) {
       <Talento
         title="Kalo"
         subtitle="A Nerdola"
-        image="/kalo.png"
+        image="/talentos/kalo.png"
         color={color}
         links={[
           { 
@@ -102,7 +102,7 @@ export default function Talentos({ color }: TalentosProps) {
       <Talento
         title="Nath Miks"
         subtitle="A Deusa Raposa"
-        image="/nath.png"
+        image="/talentos/nath.png"
         color={color}
         links={[
           { 
@@ -132,7 +132,7 @@ export default function Talentos({ color }: TalentosProps) {
       <Talento
         title="Panshee"
         subtitle="A Sombra"
-        image="/panshas.png"
+        image="/talentos/panshas.png"
         color={color}
         links={[
           { 

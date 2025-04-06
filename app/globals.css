@@ -10,8 +10,45 @@ body {
   font-family: var(--font-nunito);
 }
 
-.meninas {
-  height: 60vh;
+.menina {
+  background-size: auto 160%;
+  background-repeat: no-repeat;
+  background-position: 50% 10%;
+}
+
+.kalo {
+  background-image: url('/meninas/kalo.png');
+  background-size: auto 150%;
+}
+
+.nath {
+  background-image: url('/meninas/nath.png');
+  background-position: 55% 10%;
+}
+
+.mayu {
+  background-image: url('/meninas/mayu.png');
+  background-position: 25% 10%;
+}
+
+.izu {
+  background-image: url('/meninas/izu.png');
+  background-position: 55% 10%;
+}
+
+.panshee {
+  background-image: url('/meninas/panshee.png');
+  background-position: 40% 10%;
+}
+
+@media (width < 48rem) {
+  .menina {
+    background-size: auto 350%;
+  }
+
+  .mayu {
+    background-position: 25% 10%;
+  }
 }
 
 @keyframes floating1 {
