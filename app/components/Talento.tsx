@@ -1,5 +1,7 @@
 "use client";
 
+import tailwindConfig from "@/tailwind.config";
+
 import { useEffect, useState } from "react";
 import { FaTwitch } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
@@ -10,10 +12,11 @@ interface TalentoProps {
   title: string;
   subtitle: string;
   image: string;
+  color: "pink" | "blue" | "yellow";
   links: { type: string; href: string; all_channels?: string[] }[];
 }
 
-export default function Talento({ title, subtitle, image, links }: TalentoProps) {
+export default function Talento({ title, subtitle, image, color, links }: TalentoProps) {
   const [isLive, setIsLive] = useState(false);
 
   useEffect(() => {
@@ -51,15 +54,21 @@ export default function Talento({ title, subtitle, image, links }: TalentoProps)
         {links.map((link, index) => (
           <a key={index} href={link.href} className="bg-white rounded-full p-2 shadow-lg">
             {(() => {
+              const colors = {
+                pink: tailwindConfig.theme.extend.colors.pink,
+                blue: tailwindConfig.theme.extend.colors.blue,
+                yellow: tailwindConfig.theme.extend.colors.yellow,
+              }
+
               switch (link.type) {
                 case "twitch":
-                  return <FaTwitch color="#52C1B5" className="w-6 h-6" />;
+                  return <FaTwitch color={colors[color]} className="w-6 h-6" />;
                 case "youtube":
-                  return <FaYoutube color="#52C1B5" className="w-6 h-6" />;
+                  return <FaYoutube color={colors[color]} className="w-6 h-6" />;
                 case "instagram":
-                  return <FaInstagram color="#52C1B5" className="w-6 h-6" />;
+                  return <FaInstagram color={colors[color]} className="w-6 h-6" />;
                 case "twitter":
-                  return <FaXTwitter color="#52C1B5" className="w-6 h-6" />;
+                  return <FaXTwitter color={colors[color]} className="w-6 h-6" />;
                 default:
                   return null;
               }

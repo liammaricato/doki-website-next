@@ -1,6 +1,11 @@
 import Link from "next/link";
-import Talentos from "./components/Talentos";
-import Meninas from "./components/Meninas";
+import Talentos from "../components/Talentos";
+import Meninas from "../components/Meninas";
+
+import { FaTwitch } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 export const runtime = "edge";
 
@@ -10,7 +15,7 @@ export default function Home() {
       <Meninas />
       <div className="flex flex-col md:flex-row w-full justify-between align-center bg-white px-8 sm:px-20 py-12 sm:py-32 gap-20">
         <div className="flex-1 flex flex-col gap-10 items-start">
-          <h1 className="font-black text-4xl">Sobre</h1>
+          <h1 id="quem-somos" className="font-black text-4xl">Quem somos</h1>
           <p className="text-xl">
             A Doki Live é um grupo de Vtubers dedicado a criar um ambiente
             acolhedor e apaixonante, onde o entretenimento se transforma em
@@ -18,12 +23,20 @@ export default function Home() {
             criatividade e inovação ao público, promovendo uma comunidade
             vibrante e inclusiva.
           </p>
-          <Link
-            className="py-3 px-6 text-xl font-black bg-pink text-white w-auto rounded-full"
-            href="/sobre#quem-somos"
-          >
-            Veja mais
-          </Link>
+          <div className="flex gap-4">
+            <a href="" className="bg-pink rounded-full p-2 shadow-lg">
+              <FaTwitch color="white" className="w-8 h-8" />
+            </a>
+            <a href="" className="bg-pink rounded-full p-2 shadow-lg">
+              <FaYoutube color="white" className="w-8 h-8" />
+            </a>
+            <a href="" className="bg-pink rounded-full p-2 shadow-lg">
+              <FaInstagram color="white" className="w-8 h-8" />
+            </a>
+            <a href="" className="bg-pink rounded-full p-2 shadow-lg">
+              <FaXTwitter color="white" className="w-8 h-8" />
+            </a>
+          </div>
         </div>
         <div className="flex-1 relative min-h-[30rem]">
           <img
@@ -40,9 +53,11 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className="bg-blue w-full p-8 sm:p-20">
-        <h1 id="talentos" className="text-4xl text-white font-black">Talentos</h1>
-        <Talentos color="blue"/>
+      <div className="bg-yellow w-full p-8 sm:p-20">
+        <h1 id="talentos" className="text-4xl text-white font-black">
+          Talentos
+        </h1>
+        <Talentos color="yellow"/>
       </div>
     </div>
   );

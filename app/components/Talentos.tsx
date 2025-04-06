@@ -2,13 +2,18 @@
 
 import Talento from "./Talento";
 
-export default function Talentos() {
+interface TalentosProps {
+  color: "pink" | "blue" | "yellow";
+}
+
+export default function Talentos({ color }: TalentosProps) {
   return (
     <div id="talentos-container" className="flex w-full flex-wrap justify-around">
       <Talento
         title="Mayuyu"
         subtitle="A cafeteira?"
         image="/mayu.png"
+        color={color}
         links={[
           { 
             type: "twitch",
@@ -38,6 +43,7 @@ export default function Talentos() {
         title="Izumih Momo"
         subtitle="A Elfa Mágica"
         image="/izu.png"
+        color={color}
         links={[
           { 
             type: "twitch",
@@ -67,6 +73,7 @@ export default function Talentos() {
         title="Kalo"
         subtitle="A Nerdola"
         image="/kalo.png"
+        color={color}
         links={[
           { 
             type: "twitch",
@@ -96,6 +103,7 @@ export default function Talentos() {
         title="Nath Miks"
         subtitle="A Deusa Raposa"
         image="/nath.png"
+        color={color}
         links={[
           { 
             type: "twitch",
@@ -125,6 +133,7 @@ export default function Talentos() {
         title="Panshee"
         subtitle="A Sombra"
         image="/panshas.png"
+        color={color}
         links={[
           { 
             type: "twitch",
