@@ -13,20 +13,24 @@ export default function Talentos() {
           { 
             type: "twitch",
             href: "https://twitch.tv/mayuyuvt",
-            icon: "icon_twitch.svg",
-            icon_live: "icon_twitch.svg",
             all_channels: [
-              "https://www.youtube.com/@orochidois1692",
+              "https://www.youtube.com/izumihmomo",
             ],
           },
           { 
             type: "youtube",
             href: "https://youtube.tv/izumihmomo",
-            icon: "icon_twitch.svg",
-            icon_live: "icon_twitch.svg",
             all_channels: [
               "https://youtube.tv/izumihmomo",
             ],
+          },
+          { 
+            type: "instagram",
+            href: "https://instagram.com/mayuyuvt",
+          },
+          { 
+            type: "twitter",
+            href: "https://twitter.com/mayuyuvt",
           },
         ]}
       />
@@ -38,20 +42,24 @@ export default function Talentos() {
           { 
             type: "twitch",
             href: "https://twitch.tv/izumihmomo",
-            icon: "icon_twitch.svg",
-            icon_live: "icon_twitch.svg",
             all_channels: [
-              "https://www.youtube.com/@orochidois1692",
+              "https://www.youtube.com/izumihmomo",
             ],
           },
           { 
             type: "youtube",
             href: "https://youtube.tv/izumihmomo",
-            icon: "icon_twitch.svg",
-            icon_live: "icon_twitch.svg",
             all_channels: [
               "https://youtube.tv/izumihmomo",
             ],
+          },
+          { 
+            type: "instagram",
+            href: "https://instagram.com/izumihmomo",
+          },
+          { 
+            type: "twitter",
+            href: "https://twitter.com/izumihmomo",
           },
         ]}
       />
@@ -63,20 +71,24 @@ export default function Talentos() {
           { 
             type: "twitch",
             href: "https://twitch.tv/izumihmomo",
-            icon: "icon_twitch.svg",
-            icon_live: "icon_twitch.svg",
             all_channels: [
-              "https://www.youtube.com/@orochidois1692",
+              "https://www.youtube.com/izumihmomo",
             ],
           },
           { 
             type: "youtube",
             href: "https://youtube.tv/izumihmomo",
-            icon: "icon_twitch.svg",
-            icon_live: "icon_twitch.svg",
             all_channels: [
               "https://youtube.tv/izumihmomo",
             ],
+          },
+          { 
+            type: "instagram",
+            href: "https://instagram.com/mayuyuvt",
+          },
+          { 
+            type: "twitter",
+            href: "https://twitter.com/mayuyuvt",
           },
         ]}
       />
@@ -88,20 +100,24 @@ export default function Talentos() {
           { 
             type: "twitch",
             href: "https://twitch.tv/izumihmomo",
-            icon: "icon_twitch.svg",
-            icon_live: "icon_twitch.svg",
             all_channels: [
-              "https://www.youtube.com/@orochidois1692",
+              "https://www.youtube.com/izumihmomo",
             ],
           },
           { 
             type: "youtube",
             href: "https://youtube.tv/izumihmomo",
-            icon: "icon_twitch.svg",
-            icon_live: "icon_twitch.svg",
             all_channels: [
               "https://youtube.tv/izumihmomo",
             ],
+          },
+          { 
+            type: "instagram",
+            href: "https://instagram.com/mayuyuvt",
+          },
+          { 
+            type: "twitter",
+            href: "https://twitter.com/mayuyuvt",
           },
         ]}
       />
@@ -113,20 +129,24 @@ export default function Talentos() {
           { 
             type: "twitch",
             href: "https://twitch.tv/izumihmomo",
-            icon: "icon_twitch.svg",
-            icon_live: "icon_twitch.svg",
             all_channels: [
-              "https://www.youtube.com/@orochidois1692",
+              "https://www.youtube.com/izumihmomo",
             ],
           },
           { 
             type: "youtube",
             href: "https://youtube.tv/izumihmomo",
-            icon: "icon_twitch.svg",
-            icon_live: "icon_twitch.svg",
             all_channels: [
               "https://youtube.tv/izumihmomo",
             ],
+          },
+          { 
+            type: "instagram",
+            href: "https://instagram.com/mayuyuvt",
+          },
+          { 
+            type: "twitter",
+            href: "https://twitter.com/mayuyuvt",
           },
         ]}
       />

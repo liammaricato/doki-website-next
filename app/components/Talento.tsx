@@ -1,12 +1,16 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { FaTwitch } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 interface TalentoProps {
   title: string;
   subtitle: string;
   image: string;
-  links: { type: string; href: string; icon: string; icon_live: string, all_channels: string[] }[];
+  links: { type: string; href: string; all_channels?: string[] }[];
 }
 
 export default function Talento({ title, subtitle, image, links }: TalentoProps) {
@@ -45,8 +49,21 @@ export default function Talento({ title, subtitle, image, links }: TalentoProps)
       </div>
       <div className="flex flex-wrap justify-around gap-2">
         {links.map((link, index) => (
-          <a key={index} href={link.href}>
-            <img src={link.icon} alt={`Link para ${link.type} de ${title}`} />
+          <a key={index} href={link.href} className="bg-white rounded-full p-2 shadow-lg">
+            {(() => {
+              switch (link.type) {
+                case "twitch":
+                  return <FaTwitch color="#52C1B5" className="w-6 h-6" />;
+                case "youtube":
+                  return <FaYoutube color="#52C1B5" className="w-6 h-6" />;
+                case "instagram":
+                  return <FaInstagram color="#52C1B5" className="w-6 h-6" />;
+                case "twitter":
+                  return <FaXTwitter color="#52C1B5" className="w-6 h-6" />;
+                default:
+                  return null;
+              }
+            })()}
           </a>
         ))}
       </div>
