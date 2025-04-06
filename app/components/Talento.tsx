@@ -25,6 +25,7 @@ export default function Talento({ title, subtitle, image, links }: TalentoProps)
       // }
 
       // setTimeout(() => setIsLive(true), 5000);
+      setIsLive(false);
     }
 
     checkLiveStatus();
