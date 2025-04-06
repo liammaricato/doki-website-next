@@ -24,18 +24,18 @@ export default function Home() {
             vibrante e inclusiva.
           </p>
           <div className="flex gap-4">
-            <a href="" className="bg-pink rounded-full p-2 shadow-lg">
+            <Link href="" className="bg-pink rounded-full p-2 shadow-lg">
               <FaTwitch color="white" className="w-8 h-8" />
-            </a>
-            <a href="" className="bg-pink rounded-full p-2 shadow-lg">
+            </Link>
+            <Link href="" className="bg-pink rounded-full p-2 shadow-lg">
               <FaYoutube color="white" className="w-8 h-8" />
-            </a>
-            <a href="" className="bg-pink rounded-full p-2 shadow-lg">
+            </Link>
+            <Link href="" className="bg-pink rounded-full p-2 shadow-lg">
               <FaInstagram color="white" className="w-8 h-8" />
-            </a>
-            <a href="" className="bg-pink rounded-full p-2 shadow-lg">
+            </Link>
+            <Link href="" className="bg-pink rounded-full p-2 shadow-lg">
               <FaXTwitter color="white" className="w-8 h-8" />
-            </a>
+            </Link>
           </div>
         </div>
         <div className="flex-1 relative min-h-[30rem]">
