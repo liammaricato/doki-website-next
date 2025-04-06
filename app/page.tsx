@@ -11,7 +11,7 @@ export default function Home() {
       <div className="flex flex-col md:flex-row w-full justify-between align-center bg-white px-8 sm:px-20 py-12 sm:py-32 gap-20">
         <div className="flex-1 flex flex-col gap-10 items-start">
           <h1 className="font-black text-4xl">Sobre</h1>
-          <p className="text-2xl">
+          <p className="text-xl">
             A Doki Live é um grupo de Vtubers dedicado a criar um ambiente
             acolhedor e apaixonante, onde o entretenimento se transforma em
             conexão genuína. Com cinco integrantes talentosas, levamos diversão,
@@ -20,7 +20,7 @@ export default function Home() {
           </p>
           <Link
             className="py-3 px-6 text-xl font-black bg-pink text-white w-auto rounded-full"
-            href=""
+            href="/sobre#quem-somos"
           >
             Veja mais
           </Link>
