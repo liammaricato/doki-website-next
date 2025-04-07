@@ -13,9 +13,12 @@ export default function Home() {
   return (
     <div>
       <Meninas />
-      <div className="flex flex-col md:flex-row w-full justify-between align-center bg-white overflow-hidden px-8 sm:px-20 py-12 sm:py-32 gap-20">
+
+      <div className="flex flex-col md:flex-row w-full justify-between align-center bg-white overflow-hidden px-8 sm:px-20 pt-14 pb-20 sm:py-32 gap-20">
         <div className="flex-1 flex flex-col gap-10 items-start">
-          <h1 id="quem-somos" className="font-black text-4xl">Quem somos</h1>
+          <h1 id="quem-somos" className="font-black text-4xl">
+            Quem somos
+          </h1>
           <p className="text-xl">
             A Doki Live é um grupo de Vtubers dedicado a criar um ambiente
             acolhedor e apaixonante, onde o entretenimento se transforma em
@@ -24,17 +27,32 @@ export default function Home() {
             vibrante e inclusiva.
           </p>
           <div className="flex gap-4">
-            {/* TODO: ADICIONAR OS LINKS CORRETOS */}
-            <Link href="" className="bg-pink rounded-full p-2 shadow-lg"> 
+            <Link
+              href=""
+              target="_blank"
+              className="bg-pink rounded-full p-2 shadow-lg"
+            >
               <FaTwitch color="white" className="w-8 h-8" />
             </Link>
-            <Link href="" className="bg-pink rounded-full p-2 shadow-lg">
+            <Link
+              href="https://www.youtube.com/@DokiLiveProject"
+              target="_blank"
+              className="bg-pink rounded-full p-2 shadow-lg"
+            >
               <FaYoutube color="white" className="w-8 h-8" />
             </Link>
-            <Link href="" className="bg-pink rounded-full p-2 shadow-lg">
+            <Link
+              href="https://www.instagram.com/dokiliveoficial_/"
+              target="_blank"
+              className="bg-pink rounded-full p-2 shadow-lg"
+            >
               <FaInstagram color="white" className="w-8 h-8" />
             </Link>
-            <Link href="" className="bg-pink rounded-full p-2 shadow-lg">
+            <Link
+              href="https://x.com/DokiLiveOficial"
+              target="_blank"
+              className="bg-pink rounded-full p-2 shadow-lg"
+            >
               <FaXTwitter color="white" className="w-8 h-8" />
             </Link>
           </div>
@@ -54,11 +72,53 @@ export default function Home() {
           />
         </div>
       </div>
+
+      <div className="flex flex-col gap-10 bg-pink text-white p-14 sm:p-20">
+        <h1 className="font-black text-4xl">Nossa missão</h1>
+        <p className="text-xl">
+          Nossa missão na Doki Live é criar um espaço acolhedor e apaixonado,
+          onde a criação de conteúdo vai além do entretenimento, conectando
+          corações e pessoas ao redor do mundo. Promovemos e expandimos o
+          mercado Vtuber, inovando em campanhas publicitárias e oferecendo
+          experiências imersivas que fortalecem a comunidade. Com cada projeto,
+          buscamos tocar o público de forma genuína, cultivando uma cultura
+          inclusiva e inspiradora.
+        </p>
+      </div>
+
+      <div className="flex flex-col gap-14 bg-white p-8 sm:p-20">
+        <h1 className="font-black text-4xl">Valores</h1>
+        <div className="flex gap-8 flex-wrap justify-around items-center">
+          {
+            [
+              { src: 'CÂMERA', text: 'Inovação Criativa'},
+              { src: 'BALÃO', text: 'Comunidade Inclusiva'},
+              { src: 'ESTRELA', text: 'Conexão Autêntica'},	
+              { src: 'LAÇO', text: 'Colaboração'},
+              { src: 'MICROFONE', text: 'Responsabilidade'},
+            ].map((obj, index) => (
+              <div key={index} className="flex w-1/3 md:w-1/6 flex-col gap-4 items-center">
+                <div key={index} className="flex justify-center items-center bg-blue rounded-full w-28 lg:w-40 h-28 lg:h-40">
+                  <img
+                    src={`/stickers/${obj.src}.png`}
+                    alt={`Ícone de ${obj.src}`}
+                    className="max-w-[70%] max-h-[70%] object-contain"
+                  />
+                </div>
+                <h2 className="font-extrabold text-center min-h-[3rem] sm:min-h-[4rem] flex items-center">
+                  {obj.text}
+                </h2>
+              </div>
+            ))
+          }
+        </div>
+      </div>
+
       <div className="bg-yellow w-full p-8 sm:p-20">
         <h1 id="talentos" className="text-4xl text-white font-black">
           Talentos
         </h1>
-        <Talentos color="yellow"/>
+        <Talentos color="yellow" />
       </div>
     </div>
   );

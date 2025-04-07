@@ -18,16 +18,10 @@ export default function Talentos({ color }: TalentosProps) {
           { 
             type: "twitch",
             href: "https://twitch.tv/mayuyuvt",
-            all_channels: [
-              "https://www.youtube.com/izumihmomo",
-            ],
           },
           { 
             type: "youtube",
-            href: "https://youtube.tv/izumihmomo",
-            all_channels: [
-              "https://youtube.tv/izumihmomo",
-            ],
+            href: "https://www.youtube.com/@MayuyuVT",
           },
           { 
             type: "instagram",
@@ -48,16 +42,10 @@ export default function Talentos({ color }: TalentosProps) {
           { 
             type: "twitch",
             href: "https://twitch.tv/izumihmomo",
-            all_channels: [
-              "https://www.youtube.com/izumihmomo",
-            ],
           },
           { 
             type: "youtube",
-            href: "https://youtube.tv/izumihmomo",
-            all_channels: [
-              "https://youtube.tv/izumihmomo",
-            ],
+            href: "https://youtube.com/@izumihmomo",
           },
           { 
             type: "instagram",
@@ -77,25 +65,19 @@ export default function Talentos({ color }: TalentosProps) {
         links={[
           { 
             type: "twitch",
-            href: "https://twitch.tv/izumihmomo",
-            all_channels: [
-              "https://www.youtube.com/izumihmomo",
-            ],
+            href: "https://www.twitch.tv/kalovt",
           },
           { 
             type: "youtube",
-            href: "https://youtube.tv/izumihmomo",
-            all_channels: [
-              "https://youtube.tv/izumihmomo",
-            ],
+            href: "https://www.youtube.com/@kaloVT",
           },
           { 
             type: "instagram",
-            href: "https://instagram.com/mayuyuvt",
+            href: "https://www.instagram.com/kalovtuber/",
           },
           { 
             type: "twitter",
-            href: "https://twitter.com/mayuyuvt",
+            href: "https://twitter.com/kalovt",
           },
         ]}
       />
@@ -107,25 +89,19 @@ export default function Talentos({ color }: TalentosProps) {
         links={[
           { 
             type: "twitch",
-            href: "https://twitch.tv/izumihmomo",
-            all_channels: [
-              "https://www.youtube.com/izumihmomo",
-            ],
+            href: "https://twitch.tv/nathmiks",
           },
           { 
             type: "youtube",
-            href: "https://youtube.tv/izumihmomo",
-            all_channels: [
-              "https://youtube.tv/izumihmomo",
-            ],
+            href: "https://youtube.com/@nathmiks",
           },
           { 
             type: "instagram",
-            href: "https://instagram.com/mayuyuvt",
+            href: "https://instagram.com/nathmiks",
           },
           { 
             type: "twitter",
-            href: "https://twitter.com/mayuyuvt",
+            href: "https://twitter.com/nathmiks",
           },
         ]}
       />
@@ -137,25 +113,19 @@ export default function Talentos({ color }: TalentosProps) {
         links={[
           { 
             type: "twitch",
-            href: "https://twitch.tv/izumihmomo",
-            all_channels: [
-              "https://www.youtube.com/izumihmomo",
-            ],
+            href: "https://twitch.tv/pansheevt",
           },
           { 
             type: "youtube",
-            href: "https://youtube.tv/izumihmomo",
-            all_channels: [
-              "https://youtube.tv/izumihmomo",
-            ],
+            href: "https://youtube.com/@pansheevt",
           },
           { 
             type: "instagram",
-            href: "https://instagram.com/mayuyuvt",
+            href: "https://instagram.com/pansheevt",
           },
           { 
             type: "twitter",
-            href: "https://twitter.com/mayuyuvt",
+            href: "https://twitter.com/pansheevt",
           },
         ]}
       />

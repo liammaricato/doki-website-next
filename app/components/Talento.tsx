@@ -53,7 +53,7 @@ export default function Talento({ title, subtitle, image, color, links }: Talent
       </div>
       <div className="flex flex-wrap justify-around gap-2">
         {links.map((link, index) => (
-          <Link key={index} href={link.href} className="bg-white rounded-full p-2 shadow-lg">
+          <Link key={index} href={link.href} target="_blank" className="bg-white rounded-full p-2 shadow-lg">
             {(() => {
               const colors = {
                 pink: tailwindConfig.theme.extend.colors.pink,

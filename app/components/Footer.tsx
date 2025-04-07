@@ -27,13 +27,13 @@ export default function Footer() {
             <a href="https://www.instagram.com/dokiliveoficial_/" target="_blank">
               <FaInstagram color="#FF6BAA" className="w-8 h-8" />
             </a>
-            <a href="https://twitter.com/dokilive" target="_blank">
+            <a href="https://x.com/DokiLiveOficial" target="_blank">
               <FaXTwitter color="#FF6BAA" className="w-8 h-8" />
             </a>
-            <a href="https://www.youtube.com/@dokilive" target="_blank">
+            <a href="https://www.youtube.com/@DokiLiveProject" target="_blank">
               <FaYoutube color="#FF6BAA" className="w-8 h-8" />
             </a>
-            <a href="https://www.tiktok.com/@dokilive" target="_blank">
+            <a href="https://www.tiktok.com/@puriteaproject" target="_blank">
               <FaTiktok color="#FF6BAA" className="w-8 h-8" />
             </a>
           </div>

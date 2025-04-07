@@ -25,16 +25,16 @@ export default function Navbar() {
           </SheetHeader>
           <ul className="flex flex-col gap-8 text-black text-xl font-black">
             <li>
-              <Link href="/sobre">Sobre</Link>
+              <Link href="/sobre" className="hover:text-pink transition-colors duration-300">Sobre</Link>
             </li>
             <li>
-              <Link href="/#talentos">Talentos</Link>
+              <Link href="/#talentos" className="hover:text-pink transition-colors duration-300">Talentos</Link>
             </li>
             <li>
-              <Link href="/loja">Loja</Link>
+              <Link href="" target="_blank" className="hover:text-pink transition-colors duration-300">Loja</Link>
             </li>
             <li>
-              <Link href="/apoiar">Apoia-se</Link>
+              <Link href="https://apoia.se/puriteaproject" target="_blank" className="hover:text-pink transition-colors duration-300">Apoia-se</Link>
             </li>
           </ul>
         </SheetContent>
@@ -42,16 +42,16 @@ export default function Navbar() {
 
       <ul className="hidden md:flex gap-8 text-black text-xl font-black">
         <li>
-          <Link href="/sobre">Sobre</Link>
+          <Link href="/sobre" className="hover:text-pink transition-colors duration-300">Sobre</Link>
         </li>
         <li>
-          <Link href="/#talentos">Talentos</Link>
+          <Link href="/#talentos" className="hover:text-pink transition-colors duration-300">Talentos</Link>
         </li>
         <li>
-          <Link href="/loja">Loja</Link>
+          <Link href="" target="_blank" className="hover:text-pink transition-colors duration-300">Loja</Link>
         </li>
         <li>
-          <Link href="/apoiar">Apoia-se</Link>
+          <Link href="https://apoia.se/puriteaproject" target="_blank" className="hover:text-pink transition-colors duration-300">Apoia-se</Link>
         </li>
       </ul>
     </nav>
