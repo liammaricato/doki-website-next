@@ -22,6 +22,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
+      <head>
+        <link rel="icon" href="/main_logo.png" type="image/png" />
+      </head>
       <body
         className={`${nunito.variable} antialiased`}
       >

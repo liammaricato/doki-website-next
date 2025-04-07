@@ -39,19 +39,18 @@ export default function Home() {
             </Link>
           </div>
         </div>
-        <div className="flex-1 relative min-h-[30rem]">
-          {/* TODO: CORRIGIR TAMANHOS BASEADO NO FIGMA E SUBSTITUIR IMAGENS */}
+        <div className="flex-1 relative min-h-[26rem] md:min-h-[20rem]">
           <img
             src="/polaroid.png"
             alt="Polaroid das meninas da Doki"
             id="polaroid1"
-            className="polaroid absolute top-1/2 left-1/2 w-56 sm:w-72 md:w-56 lg:w-72"
+            className="polaroid absolute top-1/2 left-1/2 w-56 border-solid border-[1rem] border-b-[3.5rem] border-white shadow-2xl"
           />
           <img
             src="/polaroid.png"
             alt="Polaroid das meninas da Doki"
             id="polaroid2"
-            className="polaroid absolute top-1/2 left-1/2 w-56 sm:w-72 md:w-56 lg:w-72"
+            className="polaroid absolute top-1/2 left-1/2 w-56 border-solid border-[1rem] border-b-[3.5rem] border-white shadow-2xl"
           />
         </div>
       </div>

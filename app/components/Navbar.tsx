@@ -11,8 +11,8 @@ import {
 export default function Navbar() {
   return (
     <nav className="flex h-20 justify-between items-center px-8 sm:px-20 py-4 bg-white">
-      <Link href="/">
-        <img src="doki.png" alt="Logo Doki" className="h-full" />
+      <Link href="/" className="h-full">
+        <img src="main_logo.png" alt="Logo Doki" className="h-full" />
       </Link>
       
       <Sheet>

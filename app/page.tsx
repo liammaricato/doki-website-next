@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div>
       <Meninas />
-      <div className="flex flex-col md:flex-row w-full justify-between align-center bg-white overflow-hidden px-8 sm:px-20 py-12 sm:py-32 gap-20">
+      <div className="flex flex-col md:flex-row w-full justify-between align-center bg-white overflow-hidden px-8 sm:px-20 pt-14 pb-20 sm:py-32 gap-20">
         <div className="flex-1 flex flex-col gap-10 items-start">
           <h1 className="font-black text-4xl">Sobre</h1>
           <p className="text-xl">
@@ -25,19 +25,18 @@ export default function Home() {
             Veja mais
           </Link>
         </div>
-        <div className="flex-1 relative min-h-[30rem]">
-          {/* TODO: SUBSTITUIR IMAGENS */}
+        <div className="flex-1 relative min-h-[26rem] md:min-h-[20rem]">
           <img
             src="/polaroid.png"
             alt="Polaroid das meninas da Doki"
             id="polaroid1"
-            className="polaroid absolute top-1/2 left-1/2 w-56 sm:w-72 md:w-56 lg:w-72"
+            className="polaroid absolute top-1/2 left-1/2 w-56 border-solid border-[1rem] border-b-[3.5rem] border-white shadow-2xl"
           />
           <img
             src="/polaroid.png"
             alt="Polaroid das meninas da Doki"
             id="polaroid2"
-            className="polaroid absolute top-1/2 left-1/2 w-56 sm:w-72 md:w-56 lg:w-72"
+            className="polaroid absolute top-1/2 left-1/2 w-56 border-solid border-[1rem] border-b-[3.5rem] border-white shadow-2xl"
           />
         </div>
       </div>

@@ -44,7 +44,7 @@ export default function Talento({ title, subtitle, image, color, links }: Talent
       <img
         src={image}
         alt={`Retrato de ${title}`}
-        className={`rounded-full border-solid ${isLive ? 'border-red-600' : 'border-white'} border-8 shadow-lg`}
+        className={`rounded-full border-solid ${isLive ? 'border-red-600' : 'border-white'} xl:max-w-[23rem] border-8 shadow-lg`}
       />
       <div className="flex flex-col items-center gap-2">
         <h2 className="text-3xl text-white font-extrabold">{title}</h2>

@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <footer className="flex flex-col sm:flex-row gap-10 justify-between items-center lg:items-start bg-white text-black px-8 sm:px-20 py-8">
       <div className="flex-1 flex w-full justify-center sm:justify-start sm:w-auto lg:px-10 lg:py-12">
-        <img src="doki.png" alt="Logo Doki" className="w-5/6 xl:w-2/3"/>
+        <img src="main_logo.png" alt="Logo Doki" className="w-5/6 xl:w-2/3"/>
       </div>
       <div className="w-full sm:w-auto flex-1 lg:flex-auto flex flex-col gap-8 lg:flex-row lg:gap-4">
         <div className="flex-1 flex flex-col items-start gap-4">
