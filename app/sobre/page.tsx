@@ -28,7 +28,7 @@ export default function Home() {
           </p>
           <div className="flex gap-4">
             <Link
-              href=""
+              href="https://www.twitch.tv/team/prismaticpretty"
               target="_blank"
               className="bg-pink rounded-full p-2 shadow-lg"
             >
@@ -91,10 +91,10 @@ export default function Home() {
         <div className="flex gap-8 flex-wrap justify-around items-center">
           {
             [
-              { src: 'CÂMERA', text: 'Inovação Criativa'},
-              { src: 'BALÃO', text: 'Comunidade Inclusiva'},
+              { src: 'CAMERA', text: 'Inovação Criativa'},
+              { src: 'BALAO', text: 'Comunidade Inclusiva'},
               { src: 'ESTRELA', text: 'Conexão Autêntica'},	
-              { src: 'LAÇO', text: 'Colaboração'},
+              { src: 'LACO', text: 'Colaboração'},
               { src: 'MICROFONE', text: 'Responsabilidade'},
             ].map((obj, index) => (
               <div key={index} className="flex w-1/3 md:w-1/6 flex-col gap-4 items-center">
