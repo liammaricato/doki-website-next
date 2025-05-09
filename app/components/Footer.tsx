@@ -7,11 +7,11 @@ import { FaTiktok } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="flex flex-col sm:flex-row gap-10 justify-between items-center lg:items-start bg-white text-black px-8 sm:px-20 py-8">
-      <div className="flex-1 flex w-full justify-center sm:justify-start sm:w-auto lg:px-10 lg:py-12">
-        <img src="main_logo.png" alt="Logo Doki" className="w-5/6 xl:w-2/3"/>
+    <footer className="flex flex-col sm:flex-row gap-10 justify-between items-center bg-white text-black px-8 sm:px-[5%] lg:px-[10%] xl:px-40 py-8">
+      <div className="w-full sm:w-1/2 lg:w-1/3 h-full flex justify-center items-center">
+        <img src="main_logo.png" alt="Logo Doki" className="w-5/6 max-w-[20rem]"/>
       </div>
-      <div className="w-full sm:w-auto flex-1 lg:flex-auto flex flex-col gap-8 lg:flex-row lg:gap-4">
+      <div className="w-full sm:w-1/2 lg:w-2/3 flex flex-col gap-8 lg:flex-row lg:gap-4">
         <div className="flex-1 flex flex-col items-start gap-4">
           <h3 className="font-black text-l">CONTATO</h3>
           <p className="text-l">Deseja trabalhar com a Doki Live?</p>
