@@ -28,13 +28,13 @@ export default function Navbar() {
               <Link href="/sobre" className="hover:text-pink transition-colors duration-300">Sobre</Link>
             </li>
             <li>
-              <Link href="/#talentos" className="hover:text-pink transition-colors duration-300">Talentos</Link>
+              <Link href="#talentos" className="hover:text-pink transition-colors duration-300">Talentos</Link>
             </li>
             <li>
-              <Link href="" target="_blank" className="hover:text-pink transition-colors duration-300">Loja</Link>
+              <Link href="https://dokilive.lojavirtualnuvem.com.br/" target="_blank" className="hover:text-pink transition-colors duration-300">Loja</Link>
             </li>
             <li>
-              <Link href="https://apoia.se/puriteaproject" target="_blank" className="hover:text-pink transition-colors duration-300">Apoia-se</Link>
+              <Link href="https://apoia.se/dokilive" target="_blank" className="hover:text-pink transition-colors duration-300">Apoia-se</Link>
             </li>
           </ul>
         </SheetContent>
@@ -45,13 +45,13 @@ export default function Navbar() {
           <Link href="/sobre" className="hover:text-pink transition-colors duration-300">Sobre</Link>
         </li>
         <li>
-          <Link href="/#talentos" className="hover:text-pink transition-colors duration-300">Talentos</Link>
+          <Link href="#talentos" className="hover:text-pink transition-colors duration-300">Talentos</Link>
         </li>
         <li>
-          <Link href="" target="_blank" className="hover:text-pink transition-colors duration-300">Loja</Link>
+          <Link href="https://dokilive.lojavirtualnuvem.com.br/" target="_blank" className="hover:text-pink transition-colors duration-300">Loja</Link>
         </li>
         <li>
-          <Link href="https://apoia.se/puriteaproject" target="_blank" className="hover:text-pink transition-colors duration-300">Apoia-se</Link>
+          <Link href="https://apoia.se/dokilive" target="_blank" className="hover:text-pink transition-colors duration-300">Apoia-se</Link>
         </li>
       </ul>
     </nav>
