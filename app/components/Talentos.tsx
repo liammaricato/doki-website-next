@@ -4,16 +4,18 @@ import Talento from "./Talento";
 
 interface TalentosProps {
   color: "pink" | "blue" | "yellow";
+  hoverColor: "pink" | "blue" | "yellow";
 }
 
-export default function Talentos({ color }: TalentosProps) {
+export default function Talentos({ color, hoverColor }: TalentosProps) {
   return (
-    <div id="talentos-container" className="flex w-full flex-wrap justify-around">
+    <div id="talentos-container" className="grid grid-cols-[repeat(auto-fit,minmax(18rem,1fr))] gap-8 w-full place-items-center">
       <Talento
         title="Mayuyu"
         subtitle="A cafeteira?"
         image="/talentos/mayu.png"
         color={color}
+        hoverColor={hoverColor} 
         links={[
           { 
             type: "twitch",
@@ -38,6 +40,7 @@ export default function Talentos({ color }: TalentosProps) {
         subtitle="A Elfa Mágica"
         image="/talentos/izu.png"
         color={color}
+        hoverColor={hoverColor}
         links={[
           { 
             type: "twitch",
@@ -62,6 +65,7 @@ export default function Talentos({ color }: TalentosProps) {
         subtitle="A Nerdola"
         image="/talentos/kalo.png"
         color={color}
+        hoverColor={hoverColor}
         links={[
           { 
             type: "twitch",
@@ -86,6 +90,7 @@ export default function Talentos({ color }: TalentosProps) {
         subtitle="A Deusa Raposa"
         image="/talentos/nath.png"
         color={color}
+        hoverColor={hoverColor}
         links={[
           { 
             type: "twitch",
@@ -110,6 +115,7 @@ export default function Talentos({ color }: TalentosProps) {
         subtitle="A Sombra"
         image="/talentos/panshas.png"
         color={color}
+        hoverColor={hoverColor}
         links={[
           { 
             type: "twitch",

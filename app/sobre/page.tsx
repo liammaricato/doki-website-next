@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Talentos from "../components/Talentos";
 import Meninas from "../components/MeninasCarousel";
+import Valores from "../components/Valores";
 
 import { FaTwitch } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
@@ -86,39 +87,13 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="flex flex-col gap-14 bg-white p-8 sm:p-20">
-        <h1 className="font-black text-4xl">Valores</h1>
-        <div className="flex gap-8 flex-wrap justify-around items-center">
-          {
-            [
-              { src: 'CAMERA', text: 'Inovação Criativa'},
-              { src: 'BALAO', text: 'Comunidade Inclusiva'},
-              { src: 'ESTRELA', text: 'Conexão Autêntica'},	
-              { src: 'LACO', text: 'Colaboração'},
-              { src: 'MICROFONE', text: 'Responsabilidade'},
-            ].map((obj, index) => (
-              <div key={index} className="flex w-1/3 md:w-1/6 flex-col gap-4 items-center">
-                <div key={index} className="flex justify-center items-center bg-blue rounded-full w-28 lg:w-40 h-28 lg:h-40">
-                  <img
-                    src={`/stickers/${obj.src}.png`}
-                    alt={`Ícone de ${obj.src}`}
-                    className="max-w-[70%] max-h-[70%] object-contain"
-                  />
-                </div>
-                <h2 className="font-extrabold text-center min-h-[3rem] sm:min-h-[4rem] flex items-center">
-                  {obj.text}
-                </h2>
-              </div>
-            ))
-          }
-        </div>
-      </div>
+      <Valores />
 
       <div className="bg-yellow w-full p-8 sm:p-20">
         <h1 id="talentos" className="text-4xl text-white font-black">
           Talentos
         </h1>
-        <Talentos color="yellow" />
+        <Talentos color="yellow" hoverColor="pink" />
       </div>
     </div>
   );
