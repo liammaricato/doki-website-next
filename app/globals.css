@@ -11,14 +11,14 @@ body {
 }
 
 .menina {
-  background-size: auto 160%;
+  background-size: auto 200%;
   background-repeat: no-repeat;
-  background-position: 50% 10%;
+  background-position: 50% 7%;
 }
 
 .kalo {
   background-image: url('/meninas/kalo.png');
-  background-size: auto 150%;
+  background-size: auto 180%;
 }
 
 .nath {
@@ -38,7 +38,7 @@ body {
 
 .panshee {
   background-image: url('/meninas/panshee.png');
-  background-position: 40% 10%;
+  background-position: 40% 15%;
 }
 
 @media (width < 48rem) {

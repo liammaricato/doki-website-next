@@ -24,8 +24,8 @@ export default function MeninasCarousel() {
       <div className="meninas h-[60vh] flex flex-wrap w-full">
         <div className="menina kalo w-1/2 md:w-auto md:flex-auto bg-yellow"></div>
         <div className="menina nath w-1/2 md:w-auto md:flex-auto bg-pink"></div>
-        <div className="menina mayu w-1/2 md:w-auto md:flex-auto bg-blue"></div>
-        <div className="menina izu w-1/2 md:w-auto md:flex-auto bg-yellow"></div>
+        <div className="menina izu w-1/2 md:w-auto md:flex-auto bg-blue"></div>
+        <div className="menina mayu w-1/2 md:w-auto md:flex-auto bg-yellow"></div>
         <div className="menina panshee w-full md:w-auto md:flex-auto bg-pink"></div>
       </div>
     );
@@ -41,10 +41,10 @@ export default function MeninasCarousel() {
           <div className="menina nath h-full bg-pink"></div>
         </CarouselItem>
         <CarouselItem>
-          <div className="menina mayu h-full bg-blue"></div>
+          <div className="menina izu h-full bg-blue"></div>
         </CarouselItem>
         <CarouselItem>
-          <div className="menina izu h-full bg-yellow"></div>
+          <div className="menina mayu h-full bg-yellow"></div>
         </CarouselItem>
         <CarouselItem>
           <div className="menina panshee h-full bg-pink"></div>
