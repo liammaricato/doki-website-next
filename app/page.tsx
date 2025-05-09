@@ -7,7 +7,8 @@ export const runtime = "edge";
 export default function Home() {
   return (
     <div>
-      <Meninas />
+      <img src="/banner.png" alt="Banner Doki Live" className="w-full" />
+      
       <div className="flex flex-col md:flex-row w-full justify-between align-center bg-white overflow-hidden px-8 sm:px-[5%] lg:px-[10%] pt-14 pb-20 sm:py-32 gap-20">
         <div className="flex-1 flex flex-col gap-10 items-start">
           <h1 className="font-black text-4xl">Sobre</h1>
