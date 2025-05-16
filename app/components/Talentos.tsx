@@ -12,7 +12,7 @@ export default function Talentos({ color, hoverColor }: TalentosProps) {
     <div id="talentos-container" className="grid grid-cols-[repeat(auto-fit,minmax(18rem,1fr))] gap-8 w-full place-items-center">
       <Talento
         title="Mayuyu"
-        subtitle="A cafeteira?"
+        subtitle="A Demônia"
         image="/talentos/mayu.png"
         color={color}
         hoverColor={hoverColor} 
