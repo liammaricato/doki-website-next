@@ -28,9 +28,6 @@ export default function Navbar() {
               <Link href="/sobre" className="hover:text-pink transition-colors duration-300">Sobre</Link>
             </li>
             <li>
-              <Link href="#talentos" className="hover:text-pink transition-colors duration-300">Talentos</Link>
-            </li>
-            <li>
               <Link href="https://dokilive.lojavirtualnuvem.com.br/" target="_blank" className="hover:text-pink transition-colors duration-300">Loja</Link>
             </li>
             <li>
@@ -43,9 +40,6 @@ export default function Navbar() {
       <ul className="hidden md:flex gap-8 text-black text-xl font-black">
         <li>
           <Link href="/sobre" className="hover:text-pink transition-colors duration-300">Sobre</Link>
-        </li>
-        <li>
-          <Link href="#talentos" className="hover:text-pink transition-colors duration-300">Talentos</Link>
         </li>
         <li>
           <Link href="https://dokilive.lojavirtualnuvem.com.br/" target="_blank" className="hover:text-pink transition-colors duration-300">Loja</Link>
