@@ -51,6 +51,8 @@ body {
   }
 }
 
+/* ========= Polaroids Position + Animation ========= */
+
 @keyframes floating1 {
   from {
     translate: -90% -75%; /* Mantém a posição inicial */
@@ -93,6 +95,29 @@ body {
   animation: floating2 1s ease-in-out infinite;
 }
 
+/* ========= Página Sobre ========= */
+
+#sobre-polaroid1 {
+  translate: -110% -70%;
+  rotate: -10deg;
+  transition: all 0.3s ease-in-out;
+}
+
+#sobre-polaroid2 {
+  translate: -25% -50%;
+  rotate: 8deg;
+  transition: all 0.3s ease-in-out;
+}
+
+#sobre-polaroid-container:hover #sobre-polaroid1 {
+  translate: -130% -70%;
+  rotate: -14deg;
+}
+
+#sobre-polaroid-container:hover #sobre-polaroid2 {
+  translate: -10% -50%;
+  rotate: 12deg;
+}
 
 
 @layer base {

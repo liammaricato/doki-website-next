@@ -34,8 +34,8 @@ export default function Home() {
             className="polaroid absolute top-1/2 left-1/2 w-56 border-solid border-[1rem] border-b-[3.5rem] border-white shadow-2xl"
           />
           <img
-            src="/polaroid.png"
-            alt="Polaroid das meninas da Doki"
+            src="/chibis.png"
+            alt="Chibis das meninas da Doki"
             id="polaroid2"
             className="polaroid absolute top-1/2 left-1/2 w-56 border-solid border-[1rem] border-b-[3.5rem] border-white shadow-2xl"
           />

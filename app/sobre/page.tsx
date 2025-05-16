@@ -58,18 +58,18 @@ export default function Home() {
             </Link>
           </div>
         </div>
-        <div className="flex-1 relative min-h-[26rem] md:min-h-[20rem]">
+        <div id="sobre-polaroid-container" className="flex-1 relative min-h-[26rem] md:min-h-[20rem]">
           <img
-            src="/polaroid.png"
-            alt="Polaroid das meninas da Doki"
-            id="polaroid1"
-            className="polaroid absolute top-1/2 left-1/2 w-56 border-solid border-[1rem] border-b-[3.5rem] border-white shadow-2xl"
+            src="/chibis.png"
+            alt="Chibis das meninas da Doki"
+            id="sobre-polaroid1"
+            className="polaroid absolute top-1/2 left-1/2 w-44 border-solid border-[0.75rem] border-b-[2.75rem] border-white shadow-2xl"
           />
           <img
             src="/polaroid.png"
             alt="Polaroid das meninas da Doki"
-            id="polaroid2"
-            className="polaroid absolute top-1/2 left-1/2 w-56 border-solid border-[1rem] border-b-[3.5rem] border-white shadow-2xl"
+            id="sobre-polaroid2"
+            className="polaroid absolute top-1/2 left-1/2 w-72 border-solid border-[1.25rem] border-b-[4rem] border-white shadow-2xl"
           />
         </div>
       </div>
