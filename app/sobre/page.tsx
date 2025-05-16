@@ -74,7 +74,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col gap-10 bg-pink text-white p-14 sm:p-20">
+      <div className="flex flex-col gap-10 bg-pink text-white px-8 sm:px-[5%] lg:px-[10%] sm:p-20">
         <h1 className="font-black text-4xl">Nossa missão</h1>
         <p className="text-xl">
           Nossa missão na Doki Live é criar um espaço acolhedor e apaixonado,

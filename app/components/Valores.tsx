@@ -11,7 +11,7 @@ const valores = [
 
 export default function Valores() {
   return (
-    <div className="flex flex-col gap-14 bg-white p-8 sm:p-20">
+    <div className="flex flex-col gap-14 bg-white p-8 sm:py-20 sm:px-[5%] lg:px-[10%]">
       <h1 className="font-black text-4xl">Valores</h1>
       <div className="grid grid-cols-[repeat(auto-fit,minmax(14rem,1fr))] gap-8 w-full place-items-center">
         {valores.map((valor, index) => (
