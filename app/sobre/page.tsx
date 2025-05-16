@@ -90,9 +90,7 @@ export default function Home() {
       <Valores />
 
       <div className="bg-yellow w-full p-8 sm:p-20">
-        <h1 id="talentos" className="text-4xl text-white font-black">
-          Talentos
-        </h1>
+        {/* <h1 id="talentos" className="text-4xl text-white font-black">Talentos</h1> */}
         <Talentos color="yellow" hoverColor="pink" />
       </div>
     </div>

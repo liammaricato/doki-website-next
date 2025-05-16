@@ -42,7 +42,7 @@ export default function Home() {
         </div>
       </div>
       <div className="bg-blue w-full p-8 sm:p-20">
-        <h1 id="talentos" className="text-4xl text-white font-black">Talentos</h1>
+        {/* <h1 id="talentos" className="text-4xl text-white font-black">Talentos</h1> */}
         <Talentos color="blue" hoverColor="pink"/>
       </div>
     </div>
