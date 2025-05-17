@@ -26,7 +26,7 @@ export default function RootLayout({
         <link rel="icon" href="/main_logo.png" type="image/png" />
       </head>
       <body
-        className={`${nunito.variable} antialiased flex flex-col items-center bg-[url('/bg/PATTERN02.png')] bg-repeat`}
+        className={`${nunito.variable} antialiased flex flex-col items-center bg-[url('/bg/PATTERN01.png')] bg-repeat`}
       >
         <main className="w-full max-w-[1920px]">
           <Navbar />
