@@ -13,7 +13,8 @@ export const runtime = "edge";
 export default function Home() {
   return (
     <div>
-      <Meninas />
+      <img src="/banner-sm.png" alt="" className="w-full lg:hidden" />
+      <img src="/banner-lg.png" alt="" className="hidden lg:block" />
 
       <div className="flex flex-col md:flex-row w-full justify-between align-center bg-white overflow-hidden px-8 sm:px-[5%] lg:px-[10%] pt-14 pb-20 sm:py-32 gap-20">
         <div className="flex-1 flex flex-col gap-10 items-start">
@@ -74,7 +75,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col gap-10 bg-pink text-white px-8 sm:px-[5%] lg:px-[10%] sm:p-20">
+      <div className="flex flex-col gap-10 bg-pink text-white px-8 py-12 sm:px-[5%] lg:px-[10%] sm:p-20">
         <h1 className="font-black text-4xl">Nossa missão</h1>
         <p className="text-xl">
           Nossa missão na Doki Live é criar um espaço acolhedor e apaixonado,
