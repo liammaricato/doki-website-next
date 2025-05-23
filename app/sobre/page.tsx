@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Talentos from "../components/Talentos";
-import Meninas from "../components/MeninasCarousel";
 import Valores from "../components/Valores";
 
 import { FaTwitch } from "react-icons/fa";
